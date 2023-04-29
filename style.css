@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+.corpo{
+    font-family: 'Poppins', sans-serif;
+}
+
 header{
     background-color: rgb(50, 14, 85);
     color: white;
@@ -24,6 +28,7 @@ header{
 
 .cont-imag{
     width: 18%;
+    border-radius: 10%;
 }
 
 .site{
@@ -41,4 +46,35 @@ header{
 
 .site-titulo{
     padding: 20px 0;
+}
+
+.estudante-imagem{
+    width: 220px;
+    height: 270px;
+}
+
+.estudante-div{
+    text-align: center;
+    padding: 20px;
+}
+
+.students{
+    text-align: center;
+    padding: 50px;
+}
+
+.estudante-todos{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+.rodape{
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+.rodape-img{
+    width: 5%;
+    padding: 12px 0;
 }
