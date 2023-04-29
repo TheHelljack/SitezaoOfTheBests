@@ -4,7 +4,7 @@
 }
 
 header{
-    background-color: rgb(62, 20, 102);
+    background-color: rgb(50, 14, 85);
     color: white;
     display: flex;
     justify-content: space-around;
@@ -12,12 +12,33 @@ header{
     padding: 24px 0;
 }
 
-.cabima{
-    width: 10%;
+.cab-ima{
+    width: 12%;
 }
 
-.cablist{
+.cab-list{
     display: inline-block;
     margin: 0 16px;
     font-size: 24px;
+}
+
+.cont-imag{
+    width: 18%;
+}
+
+.site{
+    background-image: linear-gradient(rgb(50, 14, 85), rgb(130, 25, 228));
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 35px 0;
+}
+
+.site-div-cont{
+    width: 35%;
+}
+
+.site-titulo{
+    padding: 20px 0;
 }
