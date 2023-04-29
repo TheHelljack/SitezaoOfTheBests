@@ -1,1 +1,23 @@
-header{background-color: rgb(62, 20, 102);color: white;}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: rgb(62, 20, 102);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.cabima{
+    width: 10%;
+}
+
+.cablist{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 24px;
+}
