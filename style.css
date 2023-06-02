@@ -70,6 +70,7 @@ header{
 .formulariocs{ text-align: center; 
 }
 .formulario{
+    text-align: center;
     width: 400px;
     padding: 30px;
     border:1px solid #ccc;
