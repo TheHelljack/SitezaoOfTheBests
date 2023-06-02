@@ -67,7 +67,8 @@ header{
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
 }
-
+.formulariocs{ text-align: center; 
+}
 .formulario{
     width: 400px;
     padding: 30px;
