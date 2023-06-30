@@ -67,23 +67,28 @@ header{
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
 }
+
 .formulariopv {
     align-items: center;
 }
+
 .formulario{
     text-align: center;
     width: 400px;
     padding: 30px;
     border:1px solid #ccc;
 }
+
 .formulario p{
     width: 100%;
     font-size: 1.5em;
 }
+
 .field{
     width: 100%;
     margin: 15px 0;
 }
+
 .field label, 
 .field span{
     padding-left: 10px;
@@ -95,6 +100,7 @@ header{
     width: auto;
     display: inline-block;
 }
+
 input[type=text],
 input[type=email],
 textarea{
@@ -106,15 +112,18 @@ textarea{
     border: 1px solid #ccc;
     outline: none;
 }
+
 input#nao{
     margin-left: 30px;
 }
+
 textarea{
     line-height: 20px;
     padding: 10px;
     height: 90px;
     resize: none;
 }
+
 input[type=submit]{
     display: block;
     background-color: #ccc;
@@ -139,6 +148,6 @@ input[type=submit]{
     padding: 12px 0;
 }
 
-.formulario{
-    padding: 10px;
+.botao{
+    padding: 40px;
 }
