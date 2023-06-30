@@ -147,3 +147,7 @@ input[type=submit]{
     width: 5%;
     padding: 12px 0;
 }
+
+.botao{
+    display:flex
+}
