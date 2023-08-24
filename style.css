@@ -55,6 +55,12 @@ header{
     overflow: hidden;
 }
 
+.slides{
+    width: 400px;
+    height: 400px;
+    display: flex;
+}
+
 .estudante-imagem{
     width: 220px;
     height: 270px;
