@@ -48,6 +48,13 @@ header{
     padding: 20px 0;
 }
 
+.sliders{
+    margin: 0 auto;
+    width: 800px;
+    height: 400px;
+    overflow: hidden;
+}
+
 .estudante-imagem{
     width: 220px;
     height: 270px;
