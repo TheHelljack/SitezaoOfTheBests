@@ -147,11 +147,3 @@ input[type=submit]{
     width: 5%;
     padding: 12px 0;
 }
-.slider{
-    display: block;
-    height: 468px;
-    margin-top: 20px;
-    position: relative;
-    margin-right: auto;
-    padding: 0px 160px;
-}
