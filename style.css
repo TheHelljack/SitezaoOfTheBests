@@ -61,6 +61,10 @@ header{
     display: flex;
 }
 
+.slides input{
+    display: none;
+}
+
 .estudante-imagem{
     width: 220px;
     height: 270px;
