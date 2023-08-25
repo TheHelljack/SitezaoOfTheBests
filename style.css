@@ -70,6 +70,10 @@ header{
     position: relative;
 }
 
+.slide{
+    width: 800px;
+}
+
 .estudante-imagem{
     width: 220px;
     height: 270px;
