@@ -107,11 +107,11 @@ header{
 }
 
 #radio3:checked ~ .first{
-    margin: 0;
+    margin: -50%;
 }
 
 #radio4:checked ~ .first{
-    margin: 0;
+    margin: -75%;
 }
 
 .estudante-imagem{
