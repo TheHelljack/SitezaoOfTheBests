@@ -38,6 +38,7 @@ header{
     justify-content: center;
     align-items: center;
     padding: 35px 0;
+    height: 400;
 }
 
 .site-div-cont{
@@ -49,7 +50,7 @@ header{
 }
 
 .sliders{
-    margin: 0 auto;
+    margin:  auto;
     width: 800px;
     height: 400px;
     overflow: hidden;
