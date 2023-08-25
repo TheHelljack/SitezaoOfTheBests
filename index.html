@@ -28,46 +28,41 @@
         <img class="cont-imag" src="elchorones.png" alt="content image">
     </div>
     
-    <section class="carrossel">
-        <div class="sliders">
-            <div class="slides">
-                <input type="radio" name="radio" id="radio1">
-                <input type="radio" name="radio" id="radio2">
-                <input type="radio" name="radio" id="radio3">
-                <input type="radio" name="radio" id="radio4">
     
-                <div class="slide 1">
-                    <img src="carlo.jpg" alt="peganois">
-                </div>
-                <div class="slide">
-                    <img src="freefire.jpeg" alt="peganois">
-                </div>
-                <div class="slide">
-                    <img src="carlo.jpg" alt="peganois">
-                </div>
-                <div class="slide">
-                    <img src="freefire.jpeg" alt="peganois">
-                </div>
-    
-                <div class="auto">
-                    <div class="skip1"></div>
-                    <div class="skip2"></div>
-                    <div class="skip3"></div>
-                    <div class="skip4"></div>
-                </div>
-    
-            </div>
-
-            <div class="manual">
-                <label for="radio1" class="manualbtn"></label>
-                <label for="radio2" class="manualbtn"></label>
-                <label for="radio3" class="manualbtn"></label>
-                <label for="radio4" class="manualbtn"></label>
-            </div>
-
+    <div style="width: 500px;" class="w3-container">
+        <div class="w3-display-container mySlides">
+          <img src="carlo.jpg" style="width:100%">
+          <div class="w3-display-topleft w3-container w3-padding-32">
+            <span class="w3-white w3-padding-large w3-animate-bottom">Lorem ipsum</span>
+          </div>
         </div>
+        <div class="w3-display-container mySlides">
+          <img src="elchorones.png" style="width:100%">
+          <div class="w3-display-middle w3-container w3-padding-32">
+            <span class="w3-white w3-padding-large w3-animate-bottom">Klorim tipsum</span>
+          </div>
+        </div>
+        <div class="w3-display-container mySlides">
+          <img src="freefire.jpeg" style="width:100%">
+          <div class="w3-display-topright w3-container w3-padding-32">
+            <span class="w3-white w3-padding-large w3-animate-bottom">Blorum pipsum</span>
+          </div>
+        </div>
+  
+        <!-- Slideshow next/previous buttons -->
+        <div class="w3-container w3-dark-grey w3-padding w3-xlarge">
+          <div class="w3-left" onclick="plusDivs(-1)"><i class="fa fa-arrow-circle-left w3-hover-text-teal"></i></div>
+          <div class="w3-right" onclick="plusDivs(1)"><i class="fa fa-arrow-circle-right w3-hover-text-teal"></i></div>
+  
+          <div class="w3-center">
+            <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+            <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+            <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+          </div>
+        </div>
+      </div>
 
-    </section>
+
     <section class="students">
         <h2>Honoríficos participantes do grupo</h2>
         <div class="estudante-todos">
