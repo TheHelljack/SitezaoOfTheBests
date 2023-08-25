@@ -65,6 +65,11 @@ header{
     display: none;
 }
 
+.slide{
+    width: 25%;
+    position: relative;
+}
+
 .estudante-imagem{
     width: 220px;
     height: 270px;
