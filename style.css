@@ -98,6 +98,22 @@ header{
     background-color: white;
 }
 
+#radio1:checked ~ .first{
+    margin: 0;
+}
+
+#radio2:checked ~ .first{
+    margin: 0;
+}
+
+#radio3:checked ~ .first{
+    margin: 0;
+}
+
+#radio4:checked ~ .first{
+    margin: 0;
+}
+
 .estudante-imagem{
     width: 220px;
     height: 270px;
