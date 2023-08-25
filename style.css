@@ -103,7 +103,7 @@ header{
 }
 
 #radio2:checked ~ .first{
-    margin: 0;
+    margin: -25%;
 }
 
 #radio3:checked ~ .first{
