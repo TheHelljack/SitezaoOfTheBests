@@ -94,6 +94,10 @@ header{
     margin-right: 40px;
 }
 
+.manualbtn:hover{
+    background-color: white;
+}
+
 .estudante-imagem{
     width: 220px;
     height: 270px;
