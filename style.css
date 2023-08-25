@@ -94,6 +94,10 @@ header{
     transition: 1s;
 }
 
+.manualbtn:not(:last-child){
+    margin-right: 40px;
+}
+
 .estudante-imagem{
     width: 220px;
     height: 270px;
