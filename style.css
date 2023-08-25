@@ -71,7 +71,7 @@ header{
 }
 
 .slide{
-    width: 1000px;
+    width: 800px;
 }
 
 .manual{
@@ -87,6 +87,7 @@ header{
     padding: 5px;
     border-radius: 10px;
     cursor: pointer;
+    transition: 1s;
 }
 
 .estudante-imagem{
