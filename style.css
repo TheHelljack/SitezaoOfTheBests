@@ -78,7 +78,7 @@ header{
 .manual{
     position: absolute;
     width: 800px;
-    margin-top: -60px;
+    margin-top: -5px;
     display: flex;
     justify-content: center;
 }
