@@ -214,6 +214,7 @@ input[type=submit]{
     padding: 12px 0;
 }
 .slider{
+    padding: 50px;
     display: block;
     height: 468px;
     margin-top: 20px;
