@@ -1,5 +1,5 @@
-function Toca () {
-    document.querySelector('#som_tecla_toim').play();
+function Toca(idElementoAudio) {
+    document.querySelector('idElementoAudio').play();
 }
 const lista = document.querySelectorAll('.tecla');
 
