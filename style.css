@@ -221,3 +221,7 @@ input[type=submit]{
     margin-right: auto;
     padding: 0px 160px;
 }
+
+.teclados button{
+    size: 150%;
+}
