@@ -5,18 +5,22 @@ const lista = document.querySelectorAll('.tecla');
 
 let Contador = 0;
 
-
 while (Contador <lista.length) {
-    lista[Contador].onclick = function (){
+    const tecla = lista[Contador]
+    const classe = tecla.classList[1]
+    const idAudio = `#som_${classe}`;
+   
+    tecla.onclick = function () {
         tocar(idAudio);
 }
-    const classe = lista[Contador].classList[1]
-    console.log(classe);
-
     Contador = Contador + 1;
-    console.log(Contador);
-
-    const idAudio = `#som_${classe}`;
-    console.log(idAudio);
+tecla.onkeydown = function (evento);
+    tecla.classList.add('ativa');
+    console.log(evento.code === 'Space' || evento.code === 'Ent');
 }
+tecla.onkeyup = function () {
+    tecla.classlist.remove('ativa');
+}
+    
+
   
