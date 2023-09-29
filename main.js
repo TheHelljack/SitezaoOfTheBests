@@ -18,6 +18,5 @@ while (Contador <lista.length) {
 
     const idAudio = `#som_${classe}`;
     console.log(idAudio);
-
 }
   
