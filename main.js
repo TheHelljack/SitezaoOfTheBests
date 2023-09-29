@@ -14,7 +14,7 @@ while (Contador <lista.length) {
         tocar(idAudio);
 }
     Contador = Contador + 1;
-    tecla.onkeydown = function (evento);
+    tecla.onkeydown = function (evento) {
     tecla.classList.add('ativa');
     console.log(evento.code === 'Space' || evento.code === 'Enter');
 }
@@ -23,4 +23,4 @@ while (Contador <lista.length) {
 }
     
 
-  
+}
