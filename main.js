@@ -12,7 +12,12 @@ while (Contador <lista.length) {
 }
     const classe = lista[Contador].classList[1]
     console.log(classe);
+
     Contador = Contador + 1;
     console.log(Contador);
+
+    const idAudio = '#som_{classe}';
+    console.log(idAudio);
+
 }
   
