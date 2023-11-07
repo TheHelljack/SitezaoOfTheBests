@@ -25,6 +25,9 @@
                 case "/":
                     resultado = numero1 / numero2;
                     break;
+                case "**":
+                    resultado = numero1 ** numero2;
+                    break;
             }
 
             document.getElementById("resultado").innerHTML = "Resultado: " + resultado;
@@ -41,6 +44,7 @@
         <option value="-">-</option>
         <option value="*">*</option>
         <option value="/">/</option>
+        <option value="**">/</option>
     </select>
     <input type="number" id="numero2" placeholder="Número 2">
     <button onclick="calcular()">Calcular</button>
