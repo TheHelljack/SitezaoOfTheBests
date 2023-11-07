@@ -3,7 +3,13 @@ body {
            background-color: #7211cc;
            text-align: center;
            background-image: linear-gradient(rgb(50, 14, 85), rgb(130, 25, 228));
+           color: white;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           padding: 35px 0;
        }
+       
 
        h1 {
            color: rgb(255, 255, 255);
