@@ -41,3 +41,8 @@ body {
            font-size: 20px;
            color: #ffffff;
        }
+
+       .voltar {
+        color: white;
+        text-decoration: none;
+       }
