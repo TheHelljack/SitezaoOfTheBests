@@ -1,11 +1,11 @@
 body {
     font-family: Arial, sans-serif;
-           background-color: #cc11bc;
+           background-color: #7211cc;
            text-align: center;
        }
 
        h1 {
-           color: rgb(90, 18, 158);
+           color: rgb(255, 255, 255)5);
        }
 
        input[type="number"] {
