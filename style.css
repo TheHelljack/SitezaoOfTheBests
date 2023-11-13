@@ -259,7 +259,7 @@ input[type=submit]{
   .tecla.focus,
   .tecla:focus {
     outline: none;
-    box-shadow: 1px 1px 10px yellow;
+    box-shadow: 1px 1px 10px rgb(0, 247, 255);
   }
   
   .tecla.active:focus,
