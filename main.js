@@ -11,7 +11,6 @@ for (let Contador = 0; (Contador <lista.length); Contador++) {
     lista.onclick = function () {
         tocar(idAudio);
 }
-    Contador = Contador + 1;
     tecla.onkeydown = function (evento) {
         if(evento.code === 'Space' || evento.code === 'Enter') {
     tecla.classList.add('ativa');
