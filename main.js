@@ -13,7 +13,7 @@ for (let Contador = 0; (Contador <lista.length); Contador++) {
 }
     Contador = Contador + 1;
     tecla.onkeydown = function (evento) {
-        if(evento.code === 'Space' || evento.code === 'Enter'){
+        if(evento.code === 'Space' || evento.code === 'Enter') {
     tecla.classList.add('ativa');
     console.log(evento.code === 'Space' || evento.code === 'Enter');
 }
