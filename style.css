@@ -249,7 +249,7 @@ input[type=submit]{
   
   .tecla.ativa,
   .tecla:active {
-    background-color: var(--vermelha);
+    background-color: red;
     border: 4px solid  var(--vermelha);
     box-shadow: 3px 3px 0 var(--vermelha-escura) inset;
     color: var(--branca);
