@@ -264,7 +264,7 @@ input[type=submit]{
   
   .tecla.active:focus,
   .tecla:active:focus {
-    box-shadow: 3px 3px 0 rgb(134, 238, 130)5, 52, 185) inset, 1px 1px 10px green;
+    box-shadow: 3px 3px 0 rgb(134, 238, 130);
   }
 
   
