@@ -8,7 +8,7 @@ let (Contador = 0; (Contador <lista.length); Contador++) {
     const classe = tecla.classList[1]
     const idAudio = `#som_${classe}`;
    
-    tecla.onclick = function () {
+    lista.onclick = function () {
         tocar(idAudio);
 }
     Contador = Contador + 1;
